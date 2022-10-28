@@ -1,0 +1,10 @@
+fun main(){
+    val num1 =10
+    val num2 =3
+    val result:Int
+
+    result = max1(num1,num2)
+    println(result)
+}
+
+fun max1(a:Int, b:Int)= if(a>b) a else b
